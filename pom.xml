@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>demo-discovery-server</module>
+        <module>discovery-server</module>
         <module>update-service</module>
         <module>check-service</module>
     </modules>

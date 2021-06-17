@@ -83,7 +83,9 @@
 				<extensions>true</extensions>
 				<configuration>
 					<testFramework>JUNIT5</testFramework>
+<!--					<testMode>EXPLICIT</testMode>-->
 					<testMode>WEBTESTCLIENT</testMode>
+					<baseClassForTests>com.example.hngovi.updateservice.api.BaseTestWebClientApiTest</baseClassForTests>
 				</configuration>
 			</plugin>
 			<plugin>
