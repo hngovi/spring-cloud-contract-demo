@@ -1,7 +1,16 @@
 server.port: 8082
 
 spring:
+  main:
+    allow-bean-definition-overriding: true
   application.name: check-service
+
+kafka:
+  bootstrap:
+    address: localhost:9091
+
+  update:
+    topic: inquiry-input
 
 eureka:
   client:
@@ -10,3 +19,9 @@ eureka:
     registryFetchIntervalSeconds: 1
   instance:
     leaseRenewalIntervalInSeconds: 1
+
+geoip:
+  uri: https://freegeoip.app/json/
+
+updateservice:
+  uri: http://localhost:8081/updates
