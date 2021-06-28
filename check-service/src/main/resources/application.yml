@@ -5,6 +5,10 @@ spring:
     allow-bean-definition-overriding: true
   application.name: check-service
 
+  kafka:
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
 kafka:
   bootstrap:
     address: localhost:9091
@@ -25,3 +29,5 @@ geoip:
 
 updateservice:
   uri: http://localhost:8081/updates
+
+logging.level.org.springframework.cloud.contract: debug

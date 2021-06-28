@@ -7,10 +7,8 @@ import org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTest;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.reactive.server.WebTestClient;
 
-@WebFluxTest
+//@WebFluxTest
 public class GeoIpIntegrationTest {
-
-    private static final String EXPECTED = "{\"ip\":\"84.157.87.82\",\"country_code\":\"DE\",\"country_name\":\"Deutschland\",\"region_code\":\"HE\",\"region_name\":\"Hessen\",\"city\":\"Frankfurt am Main\",\"zip_code\":\"65929\",\"time_zone\":\"Europe/Berlin\",\"latitude\":50.1021,\"longitude\":8.5381,\"metro_code\":0}";
 
     WebTestClient webTestClient;
 

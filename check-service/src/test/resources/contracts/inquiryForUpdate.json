@@ -1,0 +1,26 @@
+{
+  "customer": {
+    "name": "name",
+    "email": "name@email.com"
+  },
+  "geoIp": {
+    "ip": "",
+    "country_code": "",
+    "country_name": "",
+    "region_code": "",
+    "region_name": "",
+    "city": "",
+    "zip_code": "",
+    "time_zone": "",
+    "latitude": 0,
+    "longitude": 0,
+    "metro_code": 0
+  },
+  "updateReleaseList": [
+    {
+      "id": 1,
+      "description": "IMPORTANT"
+    }
+  ],
+  "localDate": [2021, 6, 28]
+}
